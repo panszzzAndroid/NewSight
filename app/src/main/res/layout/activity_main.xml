@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    android:id="@+id/fragment_container">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/navigation"
+        android:layout_marginBottom="0dp"
+        tools:ignore="NotSibling" />
+
+
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/grey_85"/>
+        <RadioGroup
+            android:layout_marginBottom="5dp"
+            android:paddingTop="@dimen/margin_s"
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:clipChildren="false">
+
+            <RadioButton
+                android:text="新闻"
+                android:id="@+id/item_btn_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:textSize="@dimen/text_tip_s"
+                android:drawablePadding="4dp"
+                android:gravity="center" />
+
+
+
+            <RadioButton
+                android:textSize="@dimen/text_tip_s"
+                android:text="视频"
+                android:id="@+id/item_btn_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:drawablePadding="4dp"
+                android:gravity="center" />
+            <RadioButton
+                android:text="广播"
+                android:id="@+id/item_btn_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:textSize="@dimen/text_tip_s"
+                android:drawablePadding="4dp"
+                android:gravity="center" />
+
+            <RadioButton
+                android:textSize="@dimen/text_tip_s"
+                android:text="收藏"
+                android:id="@+id/item_btn_4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:drawablePadding="4dp"
+                android:gravity="center" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

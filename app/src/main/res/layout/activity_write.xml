@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WriteActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"/>
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="@string/search_text"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="播放音频"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_title"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+
+    <View
+        android:layout_gravity="bottom"
+        android:id="@+id/search_gesture"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/grey_85"
+        android:clickable="true" />
+</LinearLayout>

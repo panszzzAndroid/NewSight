@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/logo_m"
+            android:layout_height="@dimen/logo_m"
+            android:src="@drawable/app_logo"/>
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_3"
+            android:id="@+id/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="@dimen/logo_ss"
+                android:layout_height="@dimen/logo_ss"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_search" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_s"
+                android:background="@null"
+                android:text="长按进入搜索界面"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textSize="@dimen/text_main"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RadioGroup
+            android:layout_gravity="center_vertical"
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:clipChildren="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/item_btn_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="推荐"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/item_btn_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/interest_0"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/item_btn_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/interest_1"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/item_btn_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/interest_2"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+
+            <RadioButton
+                android:id="@+id/item_btn_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/interest_3"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/item_btn_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/interest_4"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/item_btn_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/interest_5"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/item_btn_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/interest_6"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/item_btn_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/interest_7"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/item_btn_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/interest_8"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/item_btn_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/interest_9"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/item_btn_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/interest_10"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/item_btn_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/interest_11"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/item_btn_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/interest_12"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/item_btn_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/interest_13"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/item_btn_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_s"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/interest_14"
+                android:textColor="@color/radiobutton_textcolor"
+                android:textStyle="bold" />
+
+
+        </RadioGroup>
+    </HorizontalScrollView>
+    <com.youth.banner.Banner
+        android:padding="20dp"
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="@dimen/margin_m"
+        android:layout_marginTop="@dimen/margin_s"
+        android:layout_marginRight="@dimen/margin_m" />
+
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+
+        android:id="@+id/ly_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.scwang.smartrefresh.layout.header.ClassicsHeader
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.xubo.linescrollviewlib.LineScrollView
+        android:id="@+id/linelist_lsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:scrollLines="6"
+        app:scrollScreenTime="2000"
+        app:textColor="#FFFFFF"
+        app:textSize="17"
+        app:textSpace="10dp"
+        />
+</LinearLayout>
+
+</LinearLayout>

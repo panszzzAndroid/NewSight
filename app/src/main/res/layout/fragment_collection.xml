@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F4F4"
+    tools:context=".CollectionFragment">
+    <TextView
+        android:textSize="@dimen/text_tip_s"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户ID:"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_marginTop="8dp"
+        android:textSize="@dimen/text_main"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:gravity="center|left"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/ic_inter"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="偏好设置："/>
+        <TextView
+            android:id="@+id/text_inter"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center|left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/ic_coll"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新闻收藏："/>
+    </LinearLayout>
+
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+
+            android:id="@+id/ly_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.scwang.smartrefresh.layout.header.ClassicsHeader
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_collection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="70dp" />
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+</LinearLayout>

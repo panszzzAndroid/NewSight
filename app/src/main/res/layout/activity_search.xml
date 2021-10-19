@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SearchActivity"
+    android:orientation="vertical">
+   <LinearLayout
+       android:id="@+id/top"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:id="@+id/btn_back"
+           android:layout_marginLeft="@dimen/dp_10"
+           android:layout_gravity="center"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/ic_back"/>
+       <TextView
+           android:layout_weight="1"
+           android:id="@+id/tv_result"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_margin="16dp"
+           android:gravity="center"
+           android:text="@string/search_text"
+           android:textColor="@color/black"
+           android:textSize="24sp" />
+
+       <ImageView
+           android:layout_gravity="center"
+           android:layout_width="30dp"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout"
+        android:visibility="visible"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="@dimen/text_title"
+            android:textSize="@dimen/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="搜索发现"/>
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/dp_10"
+            android:id="@+id/text_result"
+            android:layout_marginLeft="@dimen/text_title"
+            android:textSize="@dimen/text_title_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="查找不到相关新闻！"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginHorizontal="20dp"
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/search_gesture"
+        android:layout_below="@id/top"
+        android:layout_marginBottom="16dp">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/search_gesture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/recognize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="识别" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="停止" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="取消" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/search_gesture"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_mic"/>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_title_xl">35sp</dimen>
+    <dimen name="text_title_x">30sp</dimen>
+    <dimen name="text_title">24sp</dimen>
+    <dimen name="text_title_s">20sp</dimen>
+    <dimen name="text_main">17sp</dimen>
+    <dimen name="text_tip">15sp</dimen>
+    <dimen name="text_tip_s">12sp</dimen>
+
+
+
+    <dimen name="margin_xs">5dp</dimen>
+    <dimen name="margin_s">10dp</dimen>
+    <dimen name="margin_m">15dp</dimen>
+    <dimen name="margin_l">20dp</dimen>
+    <dimen name="margin_xl">35dp</dimen>
+    <dimen name="margin_xxl">50dp</dimen>
+    <dimen name="margin_xxxl">55dp</dimen>
+    <dimen name="margin_xxxxl">60dp</dimen>
+
+    <dimen name="logo_ss">50px</dimen>
+    <dimen name="logo_s">80px</dimen>
+    <dimen name="logo_m">125px</dimen>
+    <dimen name="logo_l">175px</dimen>
+    <dimen name="logo_sl">225px</dimen>
+    <dimen name="logo">325px</dimen>
+    <dimen name="logo_xl">400px</dimen>
+    <dimen name="logo_xxl">450px</dimen>
+    <dimen name="logo_xxxl">500px</dimen>
+</resources>

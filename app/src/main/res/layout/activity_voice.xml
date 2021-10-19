@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginVertical="20dp"
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_back"/>
+        <TextView
+            android:textSize="@dimen/text_main"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="点击下方按钮播放"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"/>
+    </LinearLayout>
+<!--    <ImageView-->
+<!--        android:src="@mipmap/bg_voice2"-->
+<!--        android:id="@+id/banner"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginLeft="@dimen/margin_m"-->
+<!--        android:layout_marginRight="@dimen/margin_m" />-->
+
+    <TextView
+        android:id="@+id/text_title"
+        android:textSize="@dimen/text_title_s"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="习近平发表二〇二一年新年贺词"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginLeft="@dimen/margin_m"
+        android:layout_marginRight="@dimen/margin_m">
+        <ImageView
+            android:id="@+id/image_title"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/bg_voice_news_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:layout_marginTop="@dimen/dp_10"
+            android:id="@+id/btn_play"
+            android:layout_marginBottom="10dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginVertical="5dp"
+        android:textSize="@dimen/text_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="文字信息：" />
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_gravity="center"
+            android:lineSpacingExtra="8dp"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_main"
+            android:padding="5dp"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </ScrollView>
+</LinearLayout>

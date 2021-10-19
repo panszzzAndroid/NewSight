@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+
+    <com.xubo.linescrollviewlib.LineScrollView
+        android:id="@+id/linelist_lsv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#0000"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:scrollLines="6"
+        app:scrollScreenTime="4000"
+        app:textColor="#000000"
+        app:textSize="17"
+        app:textSpace="10dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

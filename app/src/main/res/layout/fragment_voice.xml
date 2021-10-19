@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@mipmap/bg_voice2"
+            android:padding="20dp"
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="@dimen/margin_m"
+            android:layout_marginTop="@dimen/margin_s"
+            android:layout_marginRight="@dimen/margin_m" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_title"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="浙江之声"
+                android:gravity="center" />
+            <TextView
+                android:textSize="@dimen/text_title_s"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="经济之声"
+                android:gravity="center" />
+            <TextView
+                android:textSize="@dimen/text_title_s"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="健康之声"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/shape"
+                android:layout_marginLeft="15dp"
+                android:layout_width="75dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="@dimen/text_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="6-30"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+                <TextView
+                    android:textSize="@dimen/text_main"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="周三"/>
+
+                <TextView
+                    android:textSize="@dimen/text_main"
+                    android:layout_marginTop="55dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6-29"/>
+                <TextView
+                    android:textSize="@dimen/text_main"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="周二"/>
+
+                <TextView
+                    android:textSize="@dimen/text_main"
+                    android:layout_marginTop="55dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6-29"/>
+                <TextView
+
+                    android:textSize="@dimen/text_main"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="周二"/>
+
+                <TextView
+                    android:textSize="@dimen/text_main"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6-28"/>
+                <TextView
+                    android:textSize="@dimen/text_main"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="周一"/>
+
+                <TextView
+                    android:textSize="@dimen/text_main"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6-28"/>
+                <TextView
+                    android:textSize="@dimen/text_main"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="周一"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/voice_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="【独家】中国共产党的第一声广播从窑洞里发出"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_main"
+                    android:textStyle="bold" />
+                <TextView
+                    android:textSize="@dimen/text_main"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12:00"/>
+                <View
+
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#2B2B2B"/>
+
+                <TextView
+                    android:id="@+id/voice_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="习近平：共产党人拥有人格力量，才能赢得民心。"
+                    android:textSize="@dimen/text_main" />
+                <TextView
+                    android:textSize="@dimen/text_main"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12:00"/>
+                <View
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#2B2B2B"/>
+
+                <TextView
+                    android:id="@+id/voice_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="杨利伟说当年为训练买了台挺贵的摄像机"
+                    android:textSize="@dimen/text_main" />
+                <TextView
+                    android:textSize="@dimen/text_main"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="13:00"/>
+                <View
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#2B2B2B"/>
+
+                <TextView
+                    android:id="@+id/voice_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="今天，这个“白鹤亮翅”不简单！"
+                    android:textSize="@dimen/text_main" />
+                <TextView
+                    android:textSize="@dimen/text_main"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="18:30"/>
+                <View
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#2B2B2B"/>
+
+                <TextView
+                    android:id="@+id/voice_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="红军上战场前会相互交代两句话"
+                    android:textSize="@dimen/text_main" />
+                <TextView
+                    android:textSize="@dimen/text_main"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12:00"/>
+                <View
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#2B2B2B"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

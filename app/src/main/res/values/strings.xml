@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">无障碍阅读</string>
+    <string name="search_text">搜索</string>
+    <string name="long_click_to_search">常按进入搜索</string>
+    <string name="long_click_to_look">常按进入详情</string>
+    <string name="long_click_to_exit">常按返回</string>
+    <string name="click_to_exit">返回</string>
+    <string name="title_text">标题</string>
+    <string name="source_text">新闻来源：</string>
+    <string name="time_text">新闻时间：</string>
+    <string name="content_text">新闻内容</string>
+    <string name="speak_text">播放</string>
+    <string name="pause_text">暂停/继续</string>
+
+    <string name="api_type_top">头条</string>
+    <string name="api_type_guonei">国内</string>
+    <string name="api_type_guoji">国际</string>
+    <string name="api_type_tiyu">体育</string>
+    <string name="api_type_junshi">军事</string>
+    <string name="api_type_keji">科技</string>
+
+    <string name="gesture_text">手势操作区</string>
+    <string name="help_text">帮助</string>
+
+    <string name="main_n1">新闻</string>
+    <string name="main_n2">视频</string>
+    <string name="main_n3">广播</string>
+    <string name="main_n4">收藏</string>
+
+    <string name="type_1">推荐</string>
+    <string name="type_2">体育</string>
+    <string name="type_3">娱乐</string>
+    <string name="type_4">财经</string>
+    <string name="type_5">生活</string>
+    <string name="type_6">科技</string>
+
+    <string name="news_1">国家卫健委：昨日新增确诊55例，其中本土病例42例。</string>
+    <string name="news_2">1月11日0—24时，31个省（自治区、直辖市）和新疆生产建设兵团报告新增确诊病例55例，其中境外输入病例13例（上海4例，辽宁3例，天津2例，福建1例，河南1例，广东1例，陕西1例），本土病例42例（河北40例，北京1例，黑龙江1例）；无新增死亡病例；无新增疑似病例。</string>
+    <string name="news_4">截至1月11日24时，据31个省（自治区、直辖市）和新疆生产建设兵团报告，现有确诊病例697例（其中重症病例18例），累计治愈出院病例82260例，累计死亡病例4634例，累计报告确诊病例87591例，无现有疑似病例。累计追踪到密切接触者926793人，尚在医学观察的密切接触者27830人。</string>
+    <string name="news_5">累计收到港澳台地区通报确诊病例10163例。其中，香港特别行政区9283例（出院8468例，死亡159例），澳门特别行政区46例（出院46例），台湾地区834例（出院726例，死亡7例）。（国家卫健委）</string>
+    <string name="news_3">当日新增治愈出院病例31例，解除医学观察的密切接触者567人，重症病例较前一日减少2例。。</string>
+
+    <string name="video_1">今天，七一勋章颁授仪式隆重举行，张桂梅获七一勋章。</string>
+    <string name="video_2">珍贵影像！钱学森自述憋着一肚子气搞导弹研发</string>
+    <string name="video_3">祝融号完成自拍多亏一个弧</string>
+    <string name="video_4">钟南山谈德尔塔变异毒株密接新概念</string>
+    <string name="video_5">中国科学家突破杂交马铃薯育种难题</string>
+
+
+    <string name="interest_titile1">请选择您看</string>
+    <string name="interest_titile2">新闻的兴趣</string>
+    <string name="interest_titile3">以便为您更精确地推荐新闻</string>
+    <string name="interest_0">教育</string>
+    <string name="interest_1">交通</string>
+    <string name="interest_2">时政</string>
+    <string name="interest_3">社会</string>
+    <string name="interest_4">汽车</string>
+    <string name="interest_5">旅游</string>
+    <string name="interest_6">科技</string>
+    <string name="interest_7">房产</string>
+    <string name="interest_8">艺术</string>
+    <string name="interest_9">经济</string>
+    <string name="interest_10">天气</string>
+    <string name="interest_11">体育</string>
+    <string name="interest_12">娱乐</string>
+    <string name="interest_13">军事</string>
+    <string name="interest_14">美食</string>
+
+
+</resources>
